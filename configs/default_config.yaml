@@ -1,0 +1,56 @@
+# CARLA-Alpamayo Default Configuration
+
+# CARLA Connection
+carla:
+  host: localhost
+  port: 2000
+  timeout: 10.0
+  synchronous_mode: true
+  fixed_delta_seconds: 0.05  # 20 FPS simulation
+
+# Vehicle Settings
+vehicle:
+  filter: "vehicle.tesla.model3"
+  spawn_point_index: 0
+
+# Alpamayo Model Settings
+model:
+  name: "nvidia/Alpamayo-R1-10B"
+  device: "cuda"
+  dtype: "float16"
+  use_flash_attention: true
+  max_new_tokens: 512
+
+# Sensor Configuration
+sensors:
+  front_camera:
+    enabled: true
+    width: 1280
+    height: 720
+    fov: 90
+  semantic_camera:
+    enabled: false
+  depth_camera:
+    enabled: false
+  lidar:
+    enabled: false
+  gnss:
+    enabled: true
+  imu:
+    enabled: true
+
+# Control Settings
+control:
+  target_fps: 10.0
+  max_speed_kmh: 30.0
+
+# Navigation
+navigation:
+  default_command: "follow the road"
+
+# Recording
+recording:
+  enabled: false
+  output_dir: "recordings"
+  save_images: true
+  image_quality: 90
