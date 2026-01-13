@@ -1,5 +1,13 @@
 # Alpamayo-R1-10B Inference Test Results
 
+## Visual Results
+
+### Input: Multi-Camera View (8 frames)
+![Input Cameras](images/input_cameras.png)
+
+### Output: Trajectory Prediction with Chain-of-Causation
+![Trajectory Prediction](images/trajectory_prediction.png)
+
 ## Test Environment
 
 | Item | Value |
