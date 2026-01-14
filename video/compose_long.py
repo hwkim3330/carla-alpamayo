@@ -193,6 +193,9 @@ def main():
         ("scenario_3s_a.pkl", "Urban Driving"),
         ("scenario_3s_b.pkl", "Highway Merge"),
         ("scenario_3s_c.pkl", "Intersection"),
+        ("scenario_5s_d.pkl", "Highway Cruise"),
+        ("scenario_5s_e.pkl", "Residential Area"),
+        ("scenario_5s_f.pkl", "Shopping District"),
     ]
 
     scenarios = []
