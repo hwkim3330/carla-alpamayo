@@ -80,9 +80,7 @@ recordings/
 
 # Allow demo videos
 !video/alpamayo_demo.mp4
-!video/output/alpamayo_demo_v2.mp4
-!video/output/alpamayo_shorts.mp4
-!video/output/alpamayo_realtime.mp4
-!video/output/alpamayo_continuous.mp4
+!video/output/alpamayo_final.mp4
+!video/output/alpamayo_final_shorts.mp4
 model_cache/
 huggingface_cache/
