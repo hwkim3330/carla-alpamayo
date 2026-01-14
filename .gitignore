@@ -76,7 +76,9 @@ Thumbs.db
 # Project specific
 recordings/
 *.log
-*.mp4
 *.avi
+
+# Allow demo videos
+!video/alpamayo_demo.mp4
 model_cache/
 huggingface_cache/
